@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500&display=swap');
+
+body {
+    background-color: #591F82;
+    color: #ffffff;
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    padding-top: 30vh;
+    box-sizing: border-box;
+}
+
+h1 span {
+    color: #FFF913;
+    font-family: 'Lexend', sans-serif;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Lexend', sans-serif;
+}
+
+button {
+    background-color: #ffffff;
+    color: #591F82;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Lexend', sans-serif;
+    transition: background-color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+button:hover {
+    background-color: #9e9e9e;
+    color: #ffffff; /* Altera a cor do texto quando o mouse passa sobre o botão */
+}
+
+/* Adiciona a animação quando o botão é clicado */
+button:active {
+    background-color: #9e9e9e;
+}
